@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gephi.org/gexf/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="xsi" version="1.2" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.2draft.xsd">
+  <meta lastmodified="2019-09-07">
+    <creator>Geyu Wu</creator>
+    <description>Graph for LEGO</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="A LEGO Graph" timeformat="double">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="Type" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="10189-1" label="Taj Mahal">
+        <attvalues>
+          <attvalue for="0" value="set"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0" g="0" b="0"/>
+      </node>
+      <node id="10256-1" label="Taj Mahal">
+        <attvalues>
+          <attvalue for="0" value="set"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0" g="0" b="0"/>
+      </node>
+      <node id="15533_E4CD9E" label="Brick Special 1 x 4 with Masonry Brick Profile">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="2412b_6C6E68" label="Tile Special 1 x 2 Grille with Bottom Groove">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="24201_A0A5A9" label="Slope Curved 2 x 1 Inverted">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="2420_958A73" label="Plate 2 x 2 Corner">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="95" g="8A" b="73"/>
+      </node>
+      <node id="30000_0055BF" label="Brick Special 2 x 2 with 2 Pins and Axle Hole">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="00" g="55" b="BF"/>
+      </node>
+      <node id="3004_6C6E68" label="Brick 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3009_6C6E68" label="Brick 1 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3009_E4CD9E" label="Brick 1 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="3020_05131D" label="Plate 2 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3020_0A3463" label="Plate 2 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0A" g="34" b="63"/>
+      </node>
+      <node id="3022_05131D" label="Plate 2 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3023_05131D" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3023_0A3463" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0A" g="34" b="63"/>
+      </node>
+      <node id="3023_6C6E68" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3023_720E0F" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="72" g="0E" b="0F"/>
+      </node>
+      <node id="3023_A0A5A9" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="3023_C91A09" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="3023_F2CD37" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="F2" g="CD" b="37"/>
+      </node>
+      <node id="3023_FE8A18" label="Plate 1 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FE" g="8A" b="18"/>
+      </node>
+      <node id="3024_05131D" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3024_0A3463" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0A" g="34" b="63"/>
+      </node>
+      <node id="3024_6C6E68" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3024_A0A5A9" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="3024_C91A09" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="3024_F2CD37" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="F2" g="CD" b="37"/>
+      </node>
+      <node id="3024_FFFFFF" label="Plate 1 x 1">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FF" g="FF" b="FF"/>
+      </node>
+      <node id="3030_E4CD9E" label="Plate 4 x 10">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="3032_FFFFFF" label="Plate 4 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FF" g="FF" b="FF"/>
+      </node>
+      <node id="30367b_F2CD37" label="Brick Round 2 x 2 Dome Top - Blocked Open Stud with Bottom Axle Holder x Shape + Orientation">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="F2" g="CD" b="37"/>
+      </node>
+      <node id="30374_F2CD37" label="Bar 4L (Lightsaber Blade / Wand)">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="F2" g="CD" b="37"/>
+      </node>
+      <node id="3040b_958A73" label="Slope 45° 2 x 1 with Bottom Pin">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="95" g="8A" b="73"/>
+      </node>
+      <node id="30414_E4CD9E" label="Brick Special 1 x 4 with 4 Studs on One Side">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="30503_A0A5A9" label="Wedge Plate 4 x 4 Cut Corner">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="30505_05131D" label="Wedge 3 x 3 Cut Corner">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3062b_923978" label="Brick Round 1 x 1 Open Stud">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="92" g="39" b="78"/>
+      </node>
+      <node id="3062b_E4CD9E" label="Brick Round 1 x 1 Open Stud">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="3068b_05131D" label="Tile 2 x 2 with Groove">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3070b_582A12" label="Tile 1 x 1 with Groove">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="58" g="2A" b="12"/>
+      </node>
+      <node id="3070b_5A93DB" label="Tile 1 x 1 with Groove">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="5A" g="93" b="DB"/>
+      </node>
+      <node id="3070b_A0A5A9" label="Tile 1 x 1 with Groove">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="32531_A0A5A9" label="Technic Brick 4 x 6 Open Center">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="32532_05131D" label="Technic Brick 6 x 8 with Open Center 4 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3456_A0A5A9" label="Plate 6 x 14">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="3460_6C6E68" label="Plate 1 x 8">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3622_A0A5A9" label="Brick 1 x 3">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="3622_E4CD9E" label="Brick 1 x 3">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="3666_958A73" label="Plate 1 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="95" g="8A" b="73"/>
+      </node>
+      <node id="3700_0055BF" label="Technic Brick 1 x 2 [1 Hole]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="00" g="55" b="BF"/>
+      </node>
+      <node id="3701_6C6E68" label="Technic Brick 1 x 4 [3 Holes]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3703_6C6E68" label="Technic Brick 1 x 16 [15 Holes]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3706_05131D" label="Technic Axle 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3710_05131D" label="Plate 1 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3710_0A3463" label="Plate 1 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0A" g="34" b="63"/>
+      </node>
+      <node id="3710_C91A09" label="Plate 1 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="3710_FFFFFF" label="Plate 1 x 4">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FF" g="FF" b="FF"/>
+      </node>
+      <node id="3737_05131D" label="Technic Axle 10">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="3794a_FFFFFF" label="Plate Special 1 x 2 with 1 Stud without Groove (Jumper)">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FF" g="FF" b="FF"/>
+      </node>
+      <node id="3795_6C6E68" label="Plate 2 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="3795_C91A09" label="Plate 2 x 6">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="3941_C91A09" label="Brick Round 2 x 2 with Axle Hole">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="3957a_FCFCFC" label="Antenna 1 x 4 with Rounded Top">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FC" g="FC" b="FC"/>
+      </node>
+      <node id="4032a_E4CD9E" label="Plate Round 2 x 2 with Axle Hole Type 1 (+ Opening)">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="41539_A0A5A9" label="Plate 8 x 8">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="41677_0055BF" label="Technic Beam 1 x 2 Thin">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="00" g="55" b="BF"/>
+      </node>
+      <node id="4186_A0A5A9" label="Baseplate 48 x 48">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="4282_6C6E68" label="Plate 2 x 16">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="43898_FFFFFF" label="Dish 3 x 3 Inverted [Radar]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FF" g="FF" b="FF"/>
+      </node>
+      <node id="44568_A0A5A9" label="Hinge Plate 1 x 4 Locking Dual 1 Finger">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="44728_C91A09" label="Bracket 1 x 2 - 2 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="47457_0055BF" label="Brick Curved 2 x 2 x 2/3 Two Studs">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="00" g="55" b="BF"/>
+      </node>
+      <node id="4865b_6C6E68" label="Panel 1 x 2 x 1 [Rounded Corners]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="6C" g="6E" b="68"/>
+      </node>
+      <node id="52107_05131D" label="Brick Special 1 x 2 with Studs on 2 Sides">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="05" g="13" b="1D"/>
+      </node>
+      <node id="54200_582A12" label="Slope 30° 1 x 1 x 2/3 (Cheese Slope)">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="58" g="2A" b="12"/>
+      </node>
+      <node id="59443_C91A09" label="Technic Axle Connector Smooth [with x Hole + Orientation]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="C9" g="1A" b="09"/>
+      </node>
+      <node id="6111_A0A5A9" label="Brick 1 x 10">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="6141_FE8A18" label="Plate Round 1 x 1 with Solid Stud">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="FE" g="8A" b="18"/>
+      </node>
+      <node id="6182_E4CD9E" label="Brick Arch 1 x 4 x 2">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="63868_F2CD37" label="Plate Special 1 x 2 with Clip Horizontal on End">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="F2" g="CD" b="37"/>
+      </node>
+      <node id="64644_A0A5A9" label="Equipment Telescope">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="A0" g="A5" b="A9"/>
+      </node>
+      <node id="71043-1" label="Hogwarts Castle">
+        <attvalues>
+          <attvalue for="0" value="set"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0" g="0" b="0"/>
+      </node>
+      <node id="73983_E4CD9E" label="Hinge Plate 1 x 4 Swivel Top / Base [Complete Assembly]">
+        <attvalues>
+          <attvalue for="0" value="part"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="E4" g="CD" b="9E"/>
+      </node>
+      <node id="75192-1" label="UCS Millennium Falcon">
+        <attvalues>
+          <attvalue for="0" value="set"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0" g="0" b="0"/>
+      </node>
+      <node id="SWMP-1" label="Star Wars / M&amp;M Mosaic - Promo Set">
+        <attvalues>
+          <attvalue for="0" value="set"/>
+        </attvalues>
+        <ns0:color xmlns:ns0="http://www.gexf.net/1.1draft/viz" r="0" g="0" b="0"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="75192-1" target="3009_6C6E68" weight="9"/>
+      <edge id="1" source="75192-1" target="6111_A0A5A9" weight="9"/>
+      <edge id="10" source="75192-1" target="52107_05131D" weight="8"/>
+      <edge id="11" source="75192-1" target="3022_05131D" weight="8"/>
+      <edge id="12" source="75192-1" target="3706_05131D" weight="8"/>
+      <edge id="13" source="75192-1" target="32532_05131D" weight="8"/>
+      <edge id="14" source="75192-1" target="30000_0055BF" weight="8"/>
+      <edge id="15" source="75192-1" target="41677_0055BF" weight="8"/>
+      <edge id="16" source="75192-1" target="4865b_6C6E68" weight="8"/>
+      <edge id="17" source="75192-1" target="3460_6C6E68" weight="8"/>
+      <edge id="18" source="75192-1" target="4282_6C6E68" weight="8"/>
+      <edge id="19" source="75192-1" target="3795_6C6E68" weight="8"/>
+      <edge id="2" source="75192-1" target="3622_A0A5A9" weight="9"/>
+      <edge id="20" source="71043-1" target="3004_6C6E68" weight="9"/>
+      <edge id="21" source="71043-1" target="3703_6C6E68" weight="9"/>
+      <edge id="22" source="71043-1" target="3666_958A73" weight="9"/>
+      <edge id="23" source="71043-1" target="3040b_958A73" weight="9"/>
+      <edge id="24" source="71043-1" target="3456_A0A5A9" weight="9"/>
+      <edge id="25" source="71043-1" target="3070b_A0A5A9" weight="9"/>
+      <edge id="26" source="71043-1" target="3062b_923978" weight="9"/>
+      <edge id="27" source="71043-1" target="6141_FE8A18" weight="9"/>
+      <edge id="28" source="71043-1" target="54200_582A12" weight="9"/>
+      <edge id="29" source="71043-1" target="3070b_582A12" weight="9"/>
+      <edge id="3" source="75192-1" target="64644_A0A5A9" weight="9"/>
+      <edge id="30" source="71043-1" target="3009_E4CD9E" weight="9"/>
+      <edge id="31" source="71043-1" target="3062b_E4CD9E" weight="9"/>
+      <edge id="32" source="71043-1" target="15533_E4CD9E" weight="9"/>
+      <edge id="33" source="71043-1" target="73983_E4CD9E" weight="9"/>
+      <edge id="34" source="71043-1" target="3030_E4CD9E" weight="9"/>
+      <edge id="35" source="71043-1" target="4032a_E4CD9E" weight="9"/>
+      <edge id="36" source="71043-1" target="3957a_FCFCFC" weight="9"/>
+      <edge id="37" source="71043-1" target="2412b_6C6E68" weight="87"/>
+      <edge id="38" source="71043-1" target="2420_958A73" weight="84"/>
+      <edge id="39" source="71043-1" target="3024_FFFFFF" weight="82"/>
+      <edge id="4" source="75192-1" target="41539_A0A5A9" weight="9"/>
+      <edge id="40" source="10256-1" target="3710_FFFFFF" weight="92"/>
+      <edge id="41" source="10256-1" target="43898_FFFFFF" weight="9"/>
+      <edge id="42" source="10256-1" target="3032_FFFFFF" weight="9"/>
+      <edge id="43" source="10256-1" target="30374_F2CD37" weight="9"/>
+      <edge id="44" source="10256-1" target="30367b_F2CD37" weight="9"/>
+      <edge id="45" source="10256-1" target="3794a_FFFFFF" weight="80"/>
+      <edge id="46" source="10256-1" target="3737_05131D" weight="8"/>
+      <edge id="47" source="10256-1" target="30505_05131D" weight="8"/>
+      <edge id="48" source="10256-1" target="47457_0055BF" weight="8"/>
+      <edge id="49" source="10256-1" target="3700_0055BF" weight="8"/>
+      <edge id="5" source="75192-1" target="24201_A0A5A9" weight="9"/>
+      <edge id="50" source="10256-1" target="3701_6C6E68" weight="8"/>
+      <edge id="51" source="10256-1" target="3023_720E0F" weight="8"/>
+      <edge id="52" source="10256-1" target="44568_A0A5A9" weight="8"/>
+      <edge id="53" source="10256-1" target="32531_A0A5A9" weight="8"/>
+      <edge id="54" source="10256-1" target="3070b_5A93DB" weight="8"/>
+      <edge id="55" source="10256-1" target="44728_C91A09" weight="8"/>
+      <edge id="56" source="10256-1" target="3941_C91A09" weight="8"/>
+      <edge id="57" source="10256-1" target="3795_C91A09" weight="8"/>
+      <edge id="58" source="10256-1" target="59443_C91A09" weight="8"/>
+      <edge id="59" source="10256-1" target="6182_E4CD9E" weight="8"/>
+      <edge id="6" source="75192-1" target="30503_A0A5A9" weight="9"/>
+      <edge id="60" source="10189-1" target="3710_FFFFFF" weight="92"/>
+      <edge id="61" source="10189-1" target="43898_FFFFFF" weight="9"/>
+      <edge id="62" source="10189-1" target="3032_FFFFFF" weight="9"/>
+      <edge id="63" source="10189-1" target="30374_F2CD37" weight="9"/>
+      <edge id="64" source="10189-1" target="30367b_F2CD37" weight="9"/>
+      <edge id="65" source="10189-1" target="3794a_FFFFFF" weight="80"/>
+      <edge id="66" source="10189-1" target="3737_05131D" weight="8"/>
+      <edge id="67" source="10189-1" target="30505_05131D" weight="8"/>
+      <edge id="68" source="10189-1" target="47457_0055BF" weight="8"/>
+      <edge id="69" source="10189-1" target="3700_0055BF" weight="8"/>
+      <edge id="7" source="75192-1" target="3622_E4CD9E" weight="9"/>
+      <edge id="70" source="10189-1" target="3701_6C6E68" weight="8"/>
+      <edge id="71" source="10189-1" target="3023_720E0F" weight="8"/>
+      <edge id="72" source="10189-1" target="44568_A0A5A9" weight="8"/>
+      <edge id="73" source="10189-1" target="32531_A0A5A9" weight="8"/>
+      <edge id="74" source="10189-1" target="3070b_5A93DB" weight="8"/>
+      <edge id="75" source="10189-1" target="44728_C91A09" weight="8"/>
+      <edge id="76" source="10189-1" target="3941_C91A09" weight="8"/>
+      <edge id="77" source="10189-1" target="3795_C91A09" weight="8"/>
+      <edge id="78" source="10189-1" target="59443_C91A09" weight="8"/>
+      <edge id="79" source="10189-1" target="6182_E4CD9E" weight="8"/>
+      <edge id="8" source="75192-1" target="30414_E4CD9E" weight="9"/>
+      <edge id="80" source="SWMP-1" target="4186_A0A5A9" weight="6"/>
+      <edge id="81" source="SWMP-1" target="3710_05131D" weight="400"/>
+      <edge id="82" source="SWMP-1" target="3023_FE8A18" weight="350"/>
+      <edge id="83" source="SWMP-1" target="3024_05131D" weight="300"/>
+      <edge id="84" source="SWMP-1" target="3023_05131D" weight="300"/>
+      <edge id="85" source="SWMP-1" target="3023_6C6E68" weight="300"/>
+      <edge id="86" source="SWMP-1" target="3020_0A3463" weight="275"/>
+      <edge id="87" source="SWMP-1" target="3020_05131D" weight="200"/>
+      <edge id="88" source="SWMP-1" target="3024_0A3463" weight="200"/>
+      <edge id="89" source="SWMP-1" target="3023_0A3463" weight="200"/>
+      <edge id="9" source="75192-1" target="63868_F2CD37" weight="9"/>
+      <edge id="90" source="SWMP-1" target="3024_6C6E68" weight="200"/>
+      <edge id="91" source="SWMP-1" target="3024_A0A5A9" weight="200"/>
+      <edge id="92" source="SWMP-1" target="3023_A0A5A9" weight="200"/>
+      <edge id="93" source="SWMP-1" target="3024_C91A09" weight="200"/>
+      <edge id="94" source="SWMP-1" target="3023_C91A09" weight="200"/>
+      <edge id="95" source="SWMP-1" target="3024_F2CD37" weight="200"/>
+      <edge id="96" source="SWMP-1" target="3023_F2CD37" weight="200"/>
+      <edge id="97" source="SWMP-1" target="3068b_05131D" weight="180"/>
+      <edge id="98" source="SWMP-1" target="3710_0A3463" weight="150"/>
+      <edge id="99" source="SWMP-1" target="3710_C91A09" weight="150"/>
+    </edges>
+  </graph>
+</gexf>
