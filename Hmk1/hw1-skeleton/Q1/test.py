@@ -18,7 +18,7 @@ start = time.process_time()
 key = 'e57cdfa95ea05beef7251eb962f62af3'
 part_min = 1150
 ordering = '-num_parts'
-url = 'https://rebrickable.com/api/v3/lego/sets/?page_size=5&ordering=-num_parts'
+url = 'https://rebrickable.com/api/v3/lego/sets/?page_size=2&ordering=-num_parts'
 connection = http.client.HTTPConnection('rebrickable.com')
 connection.request("GET", url,'',{"Accept": "application/json", "Authorization": "key "+key})
 result = connection.getresponse()
@@ -78,18 +78,18 @@ print(len(nodes))
 edge_num = 0
 for set in sets:
      if(~graph.nodeExists(set.get('set_num'))):
-          node = graph.addNode(set.get('set_num'), set.get('set_name'), r='0', g='0', b='0')
+          node = graph.addNode(id=set.get('set_num'), label=set.get('set_name'), r="0", g="0", b="0")
           node.addAttribute(attr_type,"set")
 
      for part in set.get('parts'):
 
         if(~graph.nodeExists(part.get('part_id'))):
             color = part.get('part_color')
-            node = graph.addNode(part.get('part_id'), 
-                                 part.get('part_name'),
-                                 r = color[:2],
-                                 g = color[2:4],
-                                 b = color[4:6])
+            node = graph.addNode(id = part.get('part_id'), 
+                                 label = part.get('part_name'),
+                                 r = str(int(color[:2],16)),
+                                 g = str(int(color[2:4],16)),
+                                 b = str(int(color[4:6],16)))
             node.addAttribute(attr_type, "part")
                
             graph.addEdge(str(edge_num), set.get('set_num'), part.get('part_id'), weight=part.get('part_quantity'))

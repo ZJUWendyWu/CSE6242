@@ -73,19 +73,21 @@ attr_type = graph.addNodeAttribute(title='Type', type='string')
 
 edge_num = 0
 for set in sets:
-    if(~graph.nodeExists(set.get('set_num'))):
-        node = graph.addNode(set.get('set_num'), set.get('set_name'))
-        node.addAttribute(attr_type,"set")
-        node.setColor('0', '0', '0')
-    for part in set.get('parts'):
+     if(~graph.nodeExists(set.get('set_num'))):
+          node = graph.addNode(id=set.get('set_num'), label=set.get('set_name'), r="0", g="0", b="0")
+          node.addAttribute(attr_type,"set")
+
+     for part in set.get('parts'):
+
         if(~graph.nodeExists(part.get('part_id'))):
-            node = graph.addNode(part.get('part_id'), part.get('part_name'))
-            node.addAttribute(attr_type, "part")
             color = part.get('part_color')
-            r = color[:2]
-            g = color[2:4]
-            b = color[4:6]
-            node.setColor(r=r, g=g, b=b)  
+            node = graph.addNode(id = part.get('part_id'), 
+                                 label = part.get('part_name'),
+                                 r = str(int(color[:2],16)),
+                                 g = str(int(color[2:4],16)),
+                                 b = str(int(color[4:6],16)))
+            node.addAttribute(attr_type, "part")
+               
             graph.addEdge(str(edge_num), set.get('set_num'), part.get('part_id'), weight=part.get('part_quantity'))
             edge_num += 1
 output_file=open("bricks_graph.gexf","wb")
@@ -126,29 +128,6 @@ def gexf_graph():
     gexf = Gexf("Geyu Wu","Graph for LEGO")
     graph=gexf.addGraph("undirected", "static", "A LEGO Graph")
 
-    #Define Node attributes
-    attr_type = graph.addNodeAttribute(title='Type', type='string')
-
-    edge_num = 0
-    for set in sets:
-     if(~graph.nodeExists(set.get('set_num'))):
-          node = graph.addNode(set.get('set_num'), set.get('set_name'))
-          node.addAttribute(attr_type,"set")
-          node.setColor('0', '0', '0')
-
-     for part in set.get('parts'):
-          if(~graph.nodeExists(part.get('part_id'))):
-               node = graph.addNode(part.get('part_id'), part.get('part_name'))
-               node.addAttribute(attr_type, "part")
-               color = part.get('part_color')
-               r = color[:2]
-               g = color[2:4]
-               b = color[4:6]
-               node.setColor(r=r, g=g, b=b)  
-               graph.addEdge(str(edge_num), set.get('set_num'), part.get('part_id'), weight=part.get('part_quantity'))
-               edge_num += 1
-    output_file=open("bricks_graph.gexf","wb")
-    gexf.write(output_file)
     return gexf.graphs[0]
 
 # complete auto-grader functions for Q1.2.d
@@ -159,7 +138,7 @@ def avg_node_degree():
     (run the function called “Average Degree”) within Gephi
     """
     # you must replace this value with the avg node degree
-    return -1
+    return 4.238
 
 def graph_diameter():
     """
@@ -167,7 +146,7 @@ def graph_diameter():
     (run the function called “Network Diameter”) within Gephi
     """
     # you must replace this value with the graph diameter
-    return -1
+    return 8
 
 def avg_path_length():
     """
@@ -176,4 +155,4 @@ def avg_path_length():
     :return:
     """
     # you must replace this value with the avg path length
-    return -1
+    return 4.929

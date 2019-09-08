@@ -155,7 +155,10 @@ LIMIT 10;
 
 -- [insert your SQL statement(s) BELOW this line]
 
-
+SELECT top_level_themes.name AS theme, printf("%.2f",100.00*count(*) / (SELECT count(*) FROM top_level_themes JOIN sets ON id = theme_id)) AS percentage FROM top_level_themes JOIN sets ON id = theme_id 
+GROUP BY theme_id
+HAVING percentage >= "5.00"
+ORDER BY percentage DESC;
 
 
 -- [insert your SQL statement(s) ABOVE this line]
@@ -169,7 +172,7 @@ LIMIT 10;
 
 -- [insert your SQL statement(s) BELOW this line]
 
-
+ select themes.name as sub_name, count(*) as num_sets from themes join sets on id=theme_id where parent_id=186 group by theme_id order by num_sets desc, sub_name;
 
 
 -- [insert your SQL statement(s) ABOVE this line]
@@ -183,8 +186,19 @@ LIMIT 10;
 
 -- [insert your SQL statement(s) BELOW this line]
 
+TODO: 搞清楚 ROWID 是啥
 
-
+CREATE VIEW sets_years
+AS 
+    SELECT
+        ROWID,
+        year,
+        count(*) as sets_count
+    FROM
+        sets
+    GROUP BY
+        year
+;
 
 -- [insert your SQL statement(s) ABOVE this line]
 
@@ -202,7 +216,9 @@ SELECT AVG(sets_count) FROM sets_years;
 
 -- [insert your SQL statement(s) BELOW this line]
 
+TODO: 检查结果和Q3一样否
 
+select a.year as year, sum(b.sets_count) as running_total from sets_years as a, sets_years as b where b.year <= a.year group by a.year order by a.year;
 
 
 -- [insert your SQL statement(s) ABOVE this line]
@@ -216,7 +232,13 @@ SELECT AVG(sets_count) FROM sets_years;
 
 -- [insert your SQL statement(s) BELOW this line]
 
-
+create table parts_fts(
+    parts_fts text,
+    name text,
+    part_cat_id integer,
+    part_material_id integer
+);
+.import data/sets.csv sets
 
 
 -- [insert your SQL statement(s) ABOVE this line]
